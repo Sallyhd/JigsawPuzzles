@@ -1,0 +1,40 @@
+[
+    {
+        "name":"Mudpuppy Hot Dogs A-Z - 1000 Piece Jigsaw Puzzle",
+        "numPieces":1000,
+        "Stores":[
+            {
+                "url":"https://www.amazon.com/Mudpuppy-Puzzle-Perfect-Celebrate-Illustrations/dp/0735349096/ref=asc_df_0735349096/?tag=hyprod-20&linkCode=df0&hvadid=312209927278&hvpos=&hvnetw=g&hvrand=13720377391191381046&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9018597&hvtargid=pla-570460860945&psc=1",
+                "puzzlePrice":16.99
+            },
+            {
+                "url":"https://www.mudpuppy.com/products/hot-dogs-a-z-1000-piece-puzzle?currency=USD&variant=26298869573&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping&gclid=CjwKCAjw5NqVBhAjEiwAeCa97Y8eveHwppJRnuhOoau4bjIPsGH2D7iLCWsij9L_ZfhQcd1KmK0mAhoCtv8QAvD_BwE",
+                "puzzlePrice":16.99
+            }
+        ]
+    },
+    {
+        "name":"CHAFIN Dreamy Positano Puzzle",
+        "numPieces":1000,
+        "Stores":[
+            {
+                "url":"https://www.amazon.com/dp/B07T1XZPC2?tag=thespruce-onsite-prod-20&linkCode=ogi&th=1&psc=1&ascsubtag=4157497%7Cn2245168e96a04a0786da11c31ca0c95123%7CB07T1XZPC2",
+                "puzzlePrice":14.99
+            },
+            {
+                "url":"https://www.walmart.com/ip/Chafin-Jigsaw-Puzzle-1000-Piece-Dreamy-Positano-Signature-Collection-Twilight-Sea-Sight-Large-Puzzle-Game-Artwork-For-Adults-Teens-Puzzles/833961782?irgwc=1&sourceid=imp_UlfW88SjFxyIRDjz-8Si0zyFUkDzftyzyypzSs0&veh=aff&wmlspartner=imp_10078&clickid=UlfW88SjFxyIRDjz-8Si0zyFUkDzftyzyypzSs0&sharedid=thespruce.com&affiliates_ad_id=612734&campaign_id=9383",
+                "puzzlePrice":28.28
+            }
+        ]
+    },
+    {
+        "name":"Unidragon wooden puzzle jigsaw",
+        "numPieces":108,
+        "Stores":[
+            {
+                "url":"https://www.amazon.com/dp/B0843QY4HT?tag=georiot-us-default-20&th=1&psc=1&ascsubtag=cbq-us-1383821273196469200-20&geniuslink=true",
+                "puzzlePrice":39.99
+            }
+        ]
+    }
+]

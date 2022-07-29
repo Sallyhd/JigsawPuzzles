@@ -1,0 +1,10 @@
+
+<ul>
+    <li *ngFor="let puzzle of puzzles">
+        <a routerLink="/puzzle/{{puzzle._id}}">{{puzzle.name}} </a>
+        <button *ngIf="isLoggedIn" routerLink="/editPuzzle/{{puzzle._id}}">{{Edit}}</button>
+        <button *ngIf="isLoggedIn" routerLink="" (click)="delete(puzzle._id)">{{Delete}}</button>
+    </li>
+</ul>
+
+<button (click)="previous()" [disabled]="isOffsetZero">{{Previous}}</button><button [disabled]="isOffsetMax" (click)="next()">{{Next}}</button>

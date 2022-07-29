@@ -1,0 +1,13 @@
+<h5>{{AddStore}}</h5><br/>
+<form #addStoreForm="ngForm" (ngSubmit)="onAdd(addStoreForm)">
+    <div *ngIf="hasFail" class="alert alert-danger">{{failMessage}}</div>
+    <div>
+        <label>{{URL}}</label>
+        <input name="url" class="form-control" placeholder="{{StorePlcholder}}" [(ngModel)]="store.url" required/><br/>
+    </div>
+    <div>
+        <label>{{PuzzlePrice}}</label>
+        <input name="puzzlePrice" placeholder="{{PuzzlePrice}}" [(ngModel)]="store.puzzlePrice"/><br/>
+    </div>
+    <button type="submit">{{Add}}</button><br/>
+</form>

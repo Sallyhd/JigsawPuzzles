@@ -1,0 +1,21 @@
+<button routerLink="puzzles">{{puzzlesTitle}}</button>
+
+<button *ngIf="isLoggedIn" routerLink="addPuzzle">{{AddPuzzle}}</button>
+<button *ngIf="isLoggedIn" routerLink="search">{{SearchPuzzle}}</button>
+
+
+<div *ngIf="!isLoggedIn" id="loginButtons">
+    <button (click)="registerClicked()">{{Register}}</button>
+    <button (click)="loginClicked()">{{Login}}</button>
+</div>
+
+<br/><br/>
+
+<div *ngIf="loginClick">
+    <app-login></app-login>
+</div>
+<div *ngIf="registerClick">
+    <app-register></app-register>
+</div>
+<br/>
+<br/>

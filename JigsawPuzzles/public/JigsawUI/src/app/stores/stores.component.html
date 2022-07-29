@@ -1,0 +1,9 @@
+<ul>
+    <li *ngFor="let store of stores">
+        <a href="{{store.url}}">{{store.url}}</a><br/>
+        Puzzle Price: {{store.puzzlePrice | currency}}<br/>
+        <button *ngIf="isLoggedIn" routerLink="/puzzle/{{puzzleId}}/editStore/{{store._id}}">Edit</button>
+        <button *ngIf="isLoggedIn" (click)="deleteStore(store._id)" >Delete</button>
+        <!-- <button [routerLink]="[{{puzzleId.puzzleId}}/editStore/{{store._id}}]">Edit</button> -->
+    </li>
+</ul>

@@ -1,0 +1,17 @@
+<h3>Edit Store</h3><br/>
+
+<form #editStoreForm="ngForm" (ngSubmit)="onEdit(editStoreForm)">
+    <div *ngIf="hasSuccess" class="alert alert-success">{{successMessage}}</div><br/>
+    <div *ngIf="hasFail" class="alert alert-danger">{{failMessage}}</div>
+    <div>
+        <label>URL</label>
+        <input name="url" class="form-control" placeholder="store url" [(ngModel)]="store.url"/><br/>
+    </div>
+    <div>
+        <label>Puzzle Price</label>
+        <input name="puzzlePrice" placeholder="puzzle price" [(ngModel)]="store.puzzlePrice"/><br/>
+    </div>
+    <button type="submit">Edit</button><br/>
+</form>
+
+

@@ -1,0 +1,17 @@
+<h3>{{EditPuzzle}}</h3><br/>
+
+<form #editPuzzleForm="ngForm" (ngSubmit)="onEdit(editPuzzleForm)">
+    <div *ngIf="hasSuccess" class="alert alert-success">{{successMessage}}</div><br/>
+    <div *ngIf="hasFail" class="alert alert-danger">{{failMessage}}</div>
+    <div>
+        <label>{{Name}}</label>
+        <input name="name" class="form-control" placeholder="{{PuzzleName}}" [(ngModel)]="puzzle.name" required/><br/>
+    </div>
+    <div>
+        <label>{{NumPieces}}</label>
+        <input name="numPieces" placeholder="{{NumPieces}}" [(ngModel)]="puzzle.numPieces"/><br/>
+    </div>
+    <button type="submit">{{EditPuzzle}}</button><br/>
+</form>
+
+

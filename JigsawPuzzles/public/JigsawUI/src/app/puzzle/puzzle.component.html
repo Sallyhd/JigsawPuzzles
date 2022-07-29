@@ -1,0 +1,7 @@
+
+<h1>{{puzzle.name}}</h1><br/>
+{{NumPieces}} {{puzzle.numPieces}}<br/>
+<a [routerLink]="['stores']">{{Stores}}</a>
+<router-outlet></router-outlet>
+<br/>
+<button *ngIf="isLoggedIn" [routerLink]="['addStore']">{{AddStore}}</button>

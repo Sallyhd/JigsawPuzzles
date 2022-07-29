@@ -1,0 +1,14 @@
+Search Page<br/>
+
+<form #puzzleForm="ngForm">
+    Title: <input type="text" class="form-control" id="name"
+       required
+       [(ngModel)]="name" name="name" /><br/>
+    <button (click)="search()">Search</button>
+</form>
+
+<ul>
+    <li *ngFor="let puzzle of puzzles">
+        <a routerLink="/puzzle/{{puzzle._id}}">{{puzzle.name}} - {{puzzle.numPieces}}</a>
+    </li>
+</ul>
